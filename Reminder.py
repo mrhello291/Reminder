@@ -1,3 +1,4 @@
+# Importing the modules
 import datetime
 import time
 from plyer import notification
@@ -7,6 +8,7 @@ ans = input("Do you want to set a reminder? (y/n) : ")
 if ans not in ["Y", "y", "Yes", "yes"]:
     print("Thanks for the running the program!")
     exit(0)
+# Instructions for Date Time input
 print("Please enter date time below in the format of the below given example.")
 print("Mistake in format might show unexpected errors.")
 print("January 1, 2000 - 1:10 pm")
